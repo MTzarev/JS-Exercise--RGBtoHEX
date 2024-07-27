@@ -8,7 +8,7 @@ function rgbToHexColor(red, green, blue) {
     if (!Number.isInteger(blue) || (blue < 0) || (blue > 255)){
         return undefined; // Blue value is invalid;
     }
-    return "#" +
+    return "#" +;
         ("0" + red.toString(16).toUpperCase()).slice(-2) +
         ("0" + green.toString(16).toUpperCase()).slice(-2) +
         ("0" + blue.toString(16).toUpperCase()).slice(-2);
