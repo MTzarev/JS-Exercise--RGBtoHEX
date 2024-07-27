@@ -1,6 +1,6 @@
 function rgbToHexColor(red, green, blue) {
     if (!Number.isInteger(red) || (red < 0) || (red > 255)){
-        return undefined; // Red value is invalid
+        return undefined; // Red value is invalid;
     }
     if (!Number.isInteger(green) || (green < 0) || (green > 255)){
         return undefined; // Green value is invalid
