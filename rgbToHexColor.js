@@ -3,7 +3,7 @@ function rgbToHexColor(red, green, blue) {
         return undefined; // Red value is invalid;
     }
     if (!Number.isInteger(green) || (green < 0) || (green > 255)){
-        return undefined; // Green value is invalid
+        return undefined; // Green value is invalid;
     }
     if (!Number.isInteger(blue) || (blue < 0) || (blue > 255)){
         return undefined; // Blue value is invalid
